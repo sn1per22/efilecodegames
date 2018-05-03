@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "efilecodegames", "efilecodegames.csproj", "{1268BE39-982D-459D-A34E-642707949E18}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CB6F4441-E5F7-495B-A723-6F49C6D874D8} = {CB6F4441-E5F7-495B-A723-6F49C6D874D8}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WerdApi", "..\WerdApi\WerdApi.csproj", "{CB6F4441-E5F7-495B-A723-6F49C6D874D8}"
 EndProject

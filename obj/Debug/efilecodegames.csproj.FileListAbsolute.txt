@@ -55,3 +55,10 @@ c:\users\mel.rowlett\source\repos\efilecodegames\efilecodegames\obj\Debug\efilec
 c:\users\mel.rowlett\source\repos\efilecodegames\efilecodegames\obj\Debug\efilecodegames.csproj.CopyComplete
 c:\users\mel.rowlett\source\repos\efilecodegames\efilecodegames\obj\Debug\efilecodegames.dll
 c:\users\mel.rowlett\source\repos\efilecodegames\efilecodegames\obj\Debug\efilecodegames.pdb
+C:\Users\drew.coleman\Source\Repos\efilecodegames\obj\Debug\efilecodegames.dll
+C:\Users\drew.coleman\Source\Repos\efilecodegames\obj\Debug\efilecodegames.pdb
+C:\Users\drew.coleman\Source\Repos\efilecodegames\bin\efilecodegames.dll.config
+C:\Users\drew.coleman\Source\Repos\efilecodegames\bin\efilecodegames.dll
+C:\Users\drew.coleman\Source\Repos\efilecodegames\bin\efilecodegames.pdb
+C:\Users\drew.coleman\Source\Repos\efilecodegames\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\drew.coleman\Source\Repos\efilecodegames\obj\Debug\efilecodegames.csprojResolveAssemblyReference.cache

@@ -11,6 +11,15 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script>
+        function downloadXML() {
+            var url = "http://localhost:64562/api/returns/test/xml";
+            if (confirm('You will be charged for this, not much but...do you wish to continue?')) {
+                var win = window.open(url, '_blank');
+                win.focus();
+            }
+        }
+    </script>
     <!--===============================================================================================-->
     <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
     <!--===============================================================================================-->
@@ -29,57 +38,57 @@
     <!--===============================================================================================-->
 </head>
 <body>
-    <div class="limiter">
-        <div class="container-table100">
-            <div class="wrap-table100">
-                <div class="table100 ver1 m-b-110">
-                    <div class="table100-head">
-                        <table>
-                            <thead>
-                                <tr class="row100 head">
-                                    <th class="cell100 column1">Account</th>
-                                    <th class="cell100 column2">Return ID</th>
-                                    <th class="cell100 column3">Name</th>
-                                    <th class="cell100 column4">Federal Status</th>
-                                    <th class="cell100 column5">Download XML</th>
-                                </tr>
-                            </thead>
-                        </table>
-                    </div>
-
-                    <div class="table100-body js-pscroll">
-                        <table>
-                            <tbody>
-                                <tr class="row100 body">
-                                    <td class="cell100 column1">077780</td>
-                                    <td class="cell100 column2">12083874.001</td>
-                                    <td class="cell100 column3">Dead Pool</td>
-                                    <td class="cell100 column4">Accepted</td>
-                                    <td class="cell100 column5"><a href="#">Download</a></td>
-                                </tr>
-
-                                <tr class="row100 body">
-                                    <td class="cell100 column1">077780</td>
-                                    <td class="cell100 column2">12083874.006</td>
-                                    <td class="cell100 column3">Chris Pratt</td>
-                                    <td class="cell100 column4">Rejected</td>
-                                    <td class="cell100 column5"><a href="#">Download</a></td>
-                                </tr>
-
-                                <tr class="row100 body">
-                                    <td class="cell100 column1">077780</td>
-                                    <td class="cell100 column2">12083874.004</td>
-                                    <td class="cell100 column3">Negasonic Teenage Warhead</td>
-                                    <td class="cell100 column4">Schema Validation Error</td>
-                                    <td class="cell100 column5"><a href="#">Download</a></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+<div class="limiter">
+    <div class="container-table100">
+        <div class="wrap-table100">
+            <div class="table100 ver1 m-b-110">
+                <div class="table100-head">
+                    <table>
+                        <thead>
+                        <tr class="row100 head">
+                            <th class="cell100 column1">Account</th>
+                            <th class="cell100 column2">Return ID</th>
+                            <th class="cell100 column3">Name</th>
+                            <th class="cell100 column4">Federal Status</th>
+                            <th class="cell100 column5">Download XML</th>
+                        </tr>
+                        </thead>
+                    </table>
                 </div>
-              </div>
+
+                <div class="table100-body js-pscroll">
+                    <table>
+                        <tbody>
+                        <tr class="row100 body">
+                            <td class="cell100 column1">077780</td>
+                            <td class="cell100 column2">12083874.001</td>
+                            <td class="cell100 column3">Dead Pool</td>
+                            <td class="cell100 column4">Accepted</td>
+                            <td class="cell100 column5"><a href="javascript:downloadXML()">Download</a></td>
+                        </tr>
+
+                        <tr class="row100 body">
+                            <td class="cell100 column1">077780</td>
+                            <td class="cell100 column2">12083874.006</td>
+                            <td class="cell100 column3">Chris Pratt</td>
+                            <td class="cell100 column4">Rejected</td>
+                            <td class="cell100 column5"><a href="javascript:downloadXML()">Download</a></td>
+                        </tr>
+
+                        <tr class="row100 body">
+                            <td class="cell100 column1">077780</td>
+                            <td class="cell100 column2">12083874.004</td>
+                            <td class="cell100 column3">Negasonic Teenage Warhead</td>
+                            <td class="cell100 column4">Schema Validation Error</td>
+                            <td class="cell100 column5"><a href="javascript:downloadXML()">Download</a></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
+</div>
     </div>
 
 

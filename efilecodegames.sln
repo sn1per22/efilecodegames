@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "efilecodegames", "efilecodegames\efilecodegames.csproj", "{1268BE39-982D-459D-A34E-642707949E18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1268BE39-982D-459D-A34E-642707949E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1268BE39-982D-459D-A34E-642707949E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1268BE39-982D-459D-A34E-642707949E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1268BE39-982D-459D-A34E-642707949E18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84001302-09E2-47CB-AB59-6BD4ED429471}
+	EndGlobalSection
+EndGlobal

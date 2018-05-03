@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html ng-app="demo">
+<head>
+    <meta charset="utf-8" />
+    <title>AngularJs Sample</title>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="app/myapp.js"></script>
+    <script src="app/controllers/demoController.js"></script>
+ <!--<script src="app/myapp.js"></script> -->
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div ng-cloak="" class="tabsdemoDynamicHeight" ng-app="myapp">
+        <md-content>
+            <md-tabs md-dynamic-height="" md-border-bottom="">
+                <md-tab label="one">
+                    <md-content class="md-padding">
+                        <h1 class="md-display-2">e-filing Status</h1>
+                    </md-content>
+                </md-tab>
+                <md-tab label="two">
+                    <md-content class="md-padding">
+                        <h1 class="md-display-2">Release Return(s)</h1>
+                    </md-content>
+                </md-tab>
+                <md-tab label="three">
+                    <md-content class="md-padding">
+                        <h1 class="md-display-2">Change Status</h1>
+                    </md-content>
+                </md-tab>
+                <md-tab label="four">
+                    <md-content class="md-padding">
+                        <h1 class="md-display-2">Reminders</h1>
+                    </md-content>
+                </md-tab>
+            </md-tabs>
+        </md-content>
+    </div>
+</body>
+</html>

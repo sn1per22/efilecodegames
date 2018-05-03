@@ -62,3 +62,12 @@ C:\Users\drew.coleman\Source\Repos\efilecodegames\bin\efilecodegames.dll
 C:\Users\drew.coleman\Source\Repos\efilecodegames\bin\efilecodegames.pdb
 C:\Users\drew.coleman\Source\Repos\efilecodegames\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\drew.coleman\Source\Repos\efilecodegames\obj\Debug\efilecodegames.csprojResolveAssemblyReference.cache
+C:\Users\mel.rowlett\source\repos\efilecodegames\bin\efilecodegames.dll.config
+C:\Users\mel.rowlett\source\repos\efilecodegames\bin\efilecodegames.dll
+C:\Users\mel.rowlett\source\repos\efilecodegames\bin\efilecodegames.pdb
+C:\Users\mel.rowlett\source\repos\efilecodegames\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\mel.rowlett\source\repos\efilecodegames\obj\Debug\efilecodegames.csprojResolveAssemblyReference.cache
+C:\Users\mel.rowlett\source\repos\efilecodegames\obj\Debug\efilecodegames.csproj.CoreCompileInputs.cache
+C:\Users\mel.rowlett\source\repos\efilecodegames\obj\Debug\efilecodegames.csproj.CopyComplete
+C:\Users\mel.rowlett\source\repos\efilecodegames\obj\Debug\efilecodegames.dll
+C:\Users\mel.rowlett\source\repos\efilecodegames\obj\Debug\efilecodegames.pdb
